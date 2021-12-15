@@ -14,7 +14,7 @@ namespace POC
         public void TenprintLogin()
         {
             TenprintAppsLogin(FIRST_USER);
-            Assert.Pass("Passed successfully");
+         //   Assert.Pass("Passed successfully");
         }
     }
 }
