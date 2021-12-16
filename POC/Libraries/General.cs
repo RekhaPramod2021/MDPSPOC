@@ -2,8 +2,9 @@
 using OpenQA.Selenium.Appium;
 using OpenQA.Selenium.Appium.Windows;
 using OpenQA.Selenium.Interactions;
+using OpenQA.Selenium.Support.UI;
 using System;
-using System.Collections.Generic;
+
 using System.Diagnostics;
 using System.Text;
 using System.Threading;
@@ -102,6 +103,7 @@ namespace POC.Libraries
         }
         public void actionTobeDone(string key)
         {
+         
             Actions actions = new Actions(Session);
             switch (key)
             {
